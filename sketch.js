@@ -167,7 +167,7 @@ function draw() {
         heart1.visible=true;
       }
     }
-    if(score===10){
+    if(score===50){
       gameState='win';
     }
     if(touches===3||gameState==='end'){
