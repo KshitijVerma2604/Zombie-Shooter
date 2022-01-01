@@ -117,7 +117,7 @@ function draw() {
       player.addImage(shooterImg)
     }
     // Go to gameState bullet when player runs out of bullets
-    if(bullets===0){
+    if(bulletCount===0){
       gameState="end";
     }
 
